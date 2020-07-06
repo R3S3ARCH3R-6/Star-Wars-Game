@@ -1,0 +1,352 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3044039041823588884
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3044039041823588886}
+  - component: {fileID: 3044039041823588885}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3044039041823588886
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3044039041823588884}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3044039041823588885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3044039041823588884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e04f2d7c21fc78b41b5af905d36a4e83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Theme
+    clip: {fileID: 8300000, guid: 544efeabddc70e847bde783b506bb718, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 1
+    source: {fileID: 0}
+  - name: blaster SFX
+    clip: {fileID: 8300000, guid: 2023f5d4b754b7041ad14396cc75b394, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: chase
+    clip: {fileID: 8300000, guid: 0951d2dc56278864f82634e21d55f799, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: lost
+    clip: {fileID: 8300000, guid: b93c325d8e56ba646b2758c30456a89b, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: shoot
+    clip: {fileID: 8300000, guid: 43431eae4b6e8e34e9dcdda9ab324d93, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: get back
+    clip: {fileID: 8300000, guid: 0f497d9c38d3f3d49ad37dc477da229c, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: ST2hitleft
+    clip: {fileID: 8300000, guid: 5d9b5c46fd47db845882a1d7e1dad183, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: ST1hitleft
+    clip: {fileID: 8300000, guid: 5254740970d95b340ba5df6749a600a1, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: pAtk
+    clip: {fileID: 8300000, guid: 2348b7bbcf1f14e48b1d022e0c50a8c0, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: pJump
+    clip: {fileID: 8300000, guid: ea4142eed3a1fce48978769f5edf3524, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: pAim
+    clip: {fileID: 8300000, guid: 1d0abff4c88911f41bfd30201c15a09c, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: pShoot
+    clip: {fileID: 8300000, guid: debbe2b779a519a45b4b6fb21a41977a, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: pBlock
+    clip: {fileID: 8300000, guid: 14a986a063706ac40b57ab30f5c9cc5d, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: '""'
+    clip: {fileID: 0}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: pLowHP
+    clip: {fileID: 8300000, guid: 98eca4e9b9eb3d94c951b8e77250ed01, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: pLowBP
+    clip: {fileID: 8300000, guid: 803a044cac3dfd04eab8cc744de3af65, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: pLine1
+    clip: {fileID: 8300000, guid: bb7ba19341c959f47bdf578acbce9595, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: pLine2
+    clip: {fileID: 8300000, guid: c32bb54a15a7e984dbccbcae028b5b9e, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: pLine3
+    clip: {fileID: 8300000, guid: 48f4b428a48b6314289cd05f41bb1e05, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: pShoot
+    clip: {fileID: 8300000, guid: debbe2b779a519a45b4b6fb21a41977a, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: vBehind
+    clip: {fileID: 8300000, guid: 66fb51b6007b3a84daea36ed5eb7500e, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: vIntro
+    clip: {fileID: 8300000, guid: 31f492739e424b047b921fdbc91ffc77, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: vLine1
+    clip: {fileID: 0}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: vLine2
+    clip: {fileID: 0}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: vLine3
+    clip: {fileID: 0}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: vLine4
+    clip: {fileID: 0}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: vLine5
+    clip: {fileID: 0}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: v9HP
+    clip: {fileID: 8300000, guid: 12ffadc85b5434c4d9ab54432db13440, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: v8HP
+    clip: {fileID: 8300000, guid: 13156b78423b6164bbc1461472e2bd66, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: v7HP
+    clip: {fileID: 8300000, guid: ef48518fe8cfc4f479c1ff62d58d4a8d, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: v6HP
+    clip: {fileID: 8300000, guid: bae56fa2e87c32046ac9d9f3fa4951cd, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: v5HP
+    clip: {fileID: 8300000, guid: b763be86dcb9ee943b315058ff32f073, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: v4HP
+    clip: {fileID: 8300000, guid: 1c885079c07d2434c92487e49ab9872e, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: v3HP
+    clip: {fileID: 8300000, guid: 756fb035d8d871345aa1cfa74a2ea85b, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: v2HP
+    clip: {fileID: 8300000, guid: b9a2b240da3b3574ba476f8d35e3bcb6, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: v1HP
+    clip: {fileID: 8300000, guid: a01244b713cc06949841768956b74c72, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: '""'
+    clip: {fileID: 0}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: '""'
+    clip: {fileID: 0}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: vNo
+    clip: {fileID: 8300000, guid: 0bd84ef47d2fe9a4cbd321e533b16044, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: V chase
+    clip: {fileID: 8300000, guid: f7548a9c6d5436f45b2f6e22ffe85e2c, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: V lost
+    clip: {fileID: 8300000, guid: 20d03774f155a6a42b817a5c3f5002dc, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: V shoot
+    clip: {fileID: 8300000, guid: b8a121aa820906546b5aee0ced848f71, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: V get back
+    clip: {fileID: 8300000, guid: 985dedf5fd823994488e979993f5c602, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: bat1
+    clip: {fileID: 8300000, guid: b1ab4f1bac6c93a4f9cd130c68ca2312, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: bat2
+    clip: {fileID: 8300000, guid: d8889f5ddf4ddd34ebcc3e8807065eac, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: bat3
+    clip: {fileID: 8300000, guid: dd8da2a4c1a4dca489ae19057091fbc1, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: bat4
+    clip: {fileID: 8300000, guid: 8ad633dd80832614ab09f4086649c425, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: bat5
+    clip: {fileID: 8300000, guid: 704d601e8f8fbef489740dbd295f14fe, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: batINV
+    clip: {fileID: 8300000, guid: 5a16c5fe6a6b681498cd6a645e9f7edb, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: '""'
+    clip: {fileID: 0}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: SThit
+    clip: {fileID: 8300000, guid: ed8ef3c8d9c250846b830b47ff503ad1, type: 3}
+    volume: 0.792
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
